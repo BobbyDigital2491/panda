@@ -1,68 +1,57 @@
-# Next.js SSG
+# Hashmingos
 
-With Next.js, you can pre-render your page using [Static Generation (SSG)](https://nextjs.org/docs/basic-features/pages#static-generation-recommended). Your pages will be generated at build time and statically served to visitors. It can also be cached by a CDN to maximize the performance.
+## Hashmingos Updates
+Extinction of the Crash Mingos
+- Crash Mingos will be collected and sent to the burner in exchange for $MNGO (optional).. Regular Crash Mingo 750 $MNGO and rare 1000 $MNGO each.
+Lady Mingo tradable on Zuse Marketplace
+- Once we reach 250 Lady Mingos release or 1000 Hashmingos minted the team will reach out to Zuse team to place Lady Mingos on a marketplace.
+- Each Lady Mingo will be issued with 2500 $MNGO when claim, and additional 1500 $MNGO for early supporter’s bonus (ones claimed in first 1000 Hashmingos sales).
+<br/>
 
-This is supported by Nextra too. Here's an example:
+## Hashmingos HBAR Giveaway Changes
+- Considering that even with a 231,000h giveaway bonus plus all other utilities DURING MINT didn’t add the expected spark the team plan for it to… We are changing things up. After the first 500 Hashmingos is sold and we giveaway the rest for GOLD and MOONSHOT TIER. A percentage of the next 500 mint will be use differently. This new use will incentivize the use of MNGO through mystery spins…
 
-import { useSSG } from 'nextra/ssg'
+<br/>
 
-export const getStaticProps = ({ params }) => {
-  return fetch(`https://api.github.com/repos/shuding/nextra`)
-    .then((res) => res.json())
-    .then((repo) => ({
-      props: {
-        // We add an `ssg` field to the page props,
-        // which will be provided to the Nextra `useSSG` hook.
-        ssg: {
-          stars: repo.stargazers_count,
-        },
-      },
-      // The page will be considered as stale and regenerated every 60 seconds.
-      revalidate: 60,
-    }))
-}
-
-export const Stars = () => {
-  // Get the data from SSG, and render it as a component.
-  const { stars } = useSSG()
-  return <strong>{stars}</strong>
-}
-
-<div className="p-4 border border-gray-200 dark:border-gray-900 rounded mt-6">
-  Nextra has <Stars /> stars on GitHub!
-</div>
-
-The number above was generated at build time via `getStaticProps`. With [Incremental Static Regeneration](https://nextjs.org/docs/basic-features/data-fetching#incremental-static-regeneration) enabled, it will be kept up to date.
-
----
-
-Here's the MDX code for the example above:
-
-```js
-import { useSSG } from 'nextra/ssg'
-
-export const getStaticProps = ({ params }) => {
-  return fetch(`https://api.github.com/repos/shuding/nextra`)
-    .then((res) => res.json())
-    .then((repo) => ({
-      props: {
-        // We add an `ssg` field to the page props,
-        // which will be provided to the Nextra `useSSG` hook.
-        ssg: {
-          stars: repo.stargazers_count,
-        },
-      },
-      // The page will be considered as stale and regenerated every 60 seconds.
-      revalidate: 60,
-    }))
-}
-
-export const Stars = () => {
-  // Get the data from SSG, and render it as a component.
-  const { stars } = useSSG()
-  return <strong>{stars}</strong>
-}
+## $MNGO Mystery Spins
+This MNGO mystery spin give  everyone a chance at winning. It also gives supporters reasons to stack their MNGO for better prize levels. Each spin will be capped, these caps stands for the number of times the wheel can be spin for each 500 Hashmingos sold. As before majority of mint proceeds will be placed into a way of giving back to holders, at the same time supporting HBAR NFT community with purchasing other NFTs to be placed in the spins as rewards.
+<center>![Alt text](/chart.png "title")</center>
+<br/>
+<center><i>Bonus!!! There will be a 25,000 $MNGO wheelspin with a max of 5 spinners that will have prizes ranging from 1000-5000 $HBAR value</i></center>
+<br/>
+## Crash-Mingo's Overview
+This is for those who choose not to burn their Crash-Mingos for $MNGO token and continue to HODL their Crash-Mingos. The Crash-Mingos will no longer consist of 3 VIP classes but will be consolidated into one group the ”Party-Mingo”. Party Mingo is the new role for a Crash-Mingos VIP who owns 15 or more. There is a 75% chance of receiving a Hashmingo, and 25% chance of receiving a Panda upon VIP entry.
+- Eligible for Pandamania’s (C2E) game rewards 
+- VIPs eligible for giveaway drawings (occurs on 1st and 15th every month)
+<br/>
+## Hashmingo Overview
+VIP REQUIREMENTS 
+- Own 10 Hashmingos
+- Be active in the discord
+- Follow us on @Hmingos on twitter
+HOLDER’S BENEFITS
+- Eligible for C2E game rewards
+- Discord Flex: “Flock Runner” role
+- Discord Flex: “Pandamanian” role
+- Receive 500 $MNGO token each Hashmingo minted after the 500 mint cycles
+<br/>
+## Lady Mingo
+On April 3rd, 2022 Hashmingos being the first collection on Hedera to introduce a deflationary collection. You’ll be able to mint 3 Hashmingos from Turtlemoon Tool’s Launchpad, and send to the burner to claim a Lady Mingo. This will be the only way to claim a Lady Mingo. 2500 Lady Mingos, will be claimable! Meaning 7500 Hashmingos will be sent to the burner, cutting supply of Hashmingos by 75%!!!
+<br/>
+![Alt text](/lady2.png "title")
+<br/>
+## Benefits of Lady Mingo
+Every Lady Mingo claimed will come with 2500 $MNGO tokens, compared to the 500 $MNGO tokens being airdrop to Hashmingo’s early supporters (within first 1000 sales) will get. 20%(10 million) of the 50 million $MNGO will be set aside just for the Lady Mingos and early supporters. Each Lady Mingo counts as 3 Hashmingos, when being counted towards Flockrunner VIP (will receive 2500 $MNGO) and share the same benefits of the tiered giveaways as Hashmingos!
+<br/>
+![Alt text](/tokendist.png "title")
+<br/>
+## Mingo Utilities
+Utility of $MNGO
+- Auction off well known NFT projects using $MNGO token (Hgraphpunks, Koala Klub, Hbarmory, TeddyBar, Dr. Satoshi, UGA Nation, and much more already being held in the project wallet)
+- Raffle NFTs off using $MNGO token. 
+- Future staking, or consistent airdrop of $MNGO token
+- Future collection will be minted using $MNGO token
+- The $MNGO mystery wheel spin
+- More uses will be discussed in future…
 
 
-Nextra has <Stars /> stars on GitHub!
-```

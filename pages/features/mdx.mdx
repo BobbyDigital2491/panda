@@ -1,162 +1,94 @@
-# MDX
+## Collection Story
 
-With Nextra, all your `.md` and `.mdx` files under the pages directory will be rendered with [MDX](https://mdxjs.com/about), it's an
-advanced Markdown format with React component support.
+Two species with different backgrounds, environments, and demeanours have come together. As they live and intermingle in this one world, different classes have formed.
+Meet the Panda Syndicates, they are the lawmakers and “high class” of this society. Then you have the Hashmingos, which are the backbone or “working class” of this society.
+Unlike the Panda Syndicates, the Hashmingos consist of two strains. Their recessive gene created the Crash-Mingos. Crash-Mingos are only interested in partying and having a good time.
+Although these three groups have different goals. They live in an orderly and fair society. Even Hashmingos and Panda Syndicates throw their cares to the wind and party sometimes!
+	
+![Alt text](/pb.png "title")
 
-You can use import and use React components inside your Markdown files like this:
-
-```markdown
-import Callout from 'nextra-theme-docs/callout'
-
-**Markdown With React Components**
-
-<Callout emoji="✅">
-  **MDX** (the library), at its core, transforms MDX (the syntax) to JSX.
-  It receives an MDX string and outputs a _JSX string_. It does this by parsing
-  the MDX document to a syntax tree and then generates a JSX document from that tree. 
-</Callout>
-```
-
-Generates:
-
-import Callout from 'nextra-theme-docs/callout'
-
-<div className="p-4 border border-gray-200 dark:border-gray-900 rounded mt-6">
-**Markdown With React Components**
-
-<Callout emoji="✅">
-  **MDX** (the library), at its core, transforms MDX (the syntax) to JSX. It
-  receives an MDX string and outputs a _JSX string_. It does this by parsing the
-  MDX document to a syntax tree and then generates a JSX document from that
-  tree.
-</Callout>
-</div>
-
-## Heading
+import Bleed from 'nextra-theme-docs/bleed'
 
 <br />
 
-# **Hello**, This Is a _Title_ Inside `h1`
 
-<h2>**Hello**, This Is a _Title_ Inside `h2`</h2>
-{/* using html tag to avoid being rendered in the sidebar */}
 
-### **Hello**, This Is a _Title_ Inside `h3`
+<br />
+## Panda Updates
+Panda’s Relaunch
+- Mint price reduces from 500h to 300h
+- Supply reduction to 2222 Pandas
+Which will include our 1/1 Pandas (Samurai or Elite Pandas and ones featured in Artist Muesum), allowing them to be tradable on Zuse with the regular collection.
+New Elite VIP Requirements
+- In order to become an Elite Panda VIP you have to own and hold 10+ Pandas and buy a Samurai Panda off 1 of the 20 Elite members.
+GEN 02 Mutant Panda Benefits
+- Now with every 5 Pandas you own on 0.0.688496 you will receive a Mutant Panda. Each Extreme Rare Panda you hold you receive Mutant Panda.
+Rare Trait Pandas
+- Diamond Fur, each first of the month holders can claim 1000 $MNGO and receive a wheel spin (10-100h).
+- Celestial Tunnel, each first of the month holders can claim 1000 $MNGO and receive a wheel spin (10-100h).
+- Money Rug, each first of the month holders can claim 2000 $MNGO or cash it anytime for 1000h. 
+Panda Loans
+- Due to price reduction and supply cut, when Panda loans starts during Gen 02 it will be limited to only VIP members.  
+<br/>
+## Extreme Rare Pandas
 
-#### **Hello**, This Is a _Title_ Inside `h4`
+- Access to some presales from our partners
+- Ability to buy 1 Panda from storage a month for 20% discount
+- 10% discounts on project collection special drops
+- Anytime an Extreme Rare Panda is brand and sold, by an outside artist 10-20% of the profits will be divided in between Extreme Rare Pandas.
+- Featured in “Artist Museum” or “Collab Museum” 
+- Profit sharing for each Gen 01 drop, 0.05% for each Extreme Rare Panda owned
+- Airdrop of Gen 02 Mutant Panda
 
-##### **Hello**, This Is a _Title_ Inside `h5`
+## Classic Pandas VIP
+- Must own 10+ Pandas
+- Access to some presales from our partners
+- Ability to buy 2 Pandas from storage a month for 20% discount
+- 10% discounts on project collection special drops
+- Profit sharing for each Gen 01 drop, 0.075%
+- Airdrop of Gen 02 Mutant Panda
+- Entry NFT (Panda, Hashmingo, etc.)
+<br/>
 
-###### **Hello**, This Is a _Title_ Inside `h6`
+## Elite Pandas VIP
+- All Classic Pandas benefits 
+- Receive a free Samurai Panda, with Elite markings 
+- Partner collaborations discounts 15% off
+- Ability to buy 3 random pandas from storage every month at 20% discount
+- Receive 3 Hashmingos, or Pandaghini upon entry
+- One Elite will receive paid in full trip to China (or $2,500)
+- Profit sharing for each Gen 01 drop, 0.1%
+- Cross chain utility tester, free NFTs.
+- Airdrop of Gen 02 Mutant Panda
+<center>*Must own and hodl 10 or more pandas + elite samurai panda*</center>
+<br/>
+## VIP Requirements
+Classic Pandas
+- Must own 10 pandas or more. 
+- Must be a member in discord
+- Must be active promoter of project
+Elite Pandas
+- Must own 25 pandas or more
+- Must be a member of discord 
+- Must be active promoter of project
+- Can’t share ideas discuss in chat
+- Able to share ideas of improvement
+<br/>
+## Pandamanian Benefits
+- Access to Tier One, and Tier Two Giveaways
+- NFTs drawing giveaways 
+- Voice in community votes
+- Eligible for all C2E game rewards
+- Receive “Pandamanian” role 
+- Whitelist for Gen 02 Mutant Pandas
+- Access to purchase upcoming merchandise
+<br></br>
+<center>*SIDE NOTE: Only requires holding one or more Pandas.*</center>
 
-## List
 
-1. one
-2. two
-3. three
 
-- one
-- two
-- three
 
-## Task List
 
-```markdown
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-```
 
-Renders
+<br />
 
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-## Syntax Highlighting
-
-Automatic syntax highlighting:
-
-````markdown
-```js
-console.log('hello, world')
-```
-````
-
-Renders:
-
-```js
-console.log('hello, world')
-```
-
-You can also add the `highlight=<line|range>` modifier to highlight specific lines:
-
-````markdown
-```jsx highlight=4,6-8
-import useSWR from 'swr'
-
-function Profile() {
-  const { data, error } = useSWR('/api/user', fetcher)
-
-  if (error) return <div>failed to load</div>
-  if (!data) return <div>loading...</div>
-  return <div>hello {data.name}!</div>
-}
-```
-````
-
-```jsx highlight=4,6-8
-import useSWR from 'swr'
-
-function Profile() {
-  const { data, error } = useSWR('/api/user', fetcher)
-
-  if (error) return <div>failed to load</div>
-  if (!data) return <div>loading...</div>
-  return <div>hello {data.name}!</div>
-}
-```
-
-## Inline Code
-
-You can use \`content\` to wrap inline code content like: `let x = 1`.
-
-## Blockquote
-
-> Where some people measure progress in answers-right per test or tests-passed per year, we are more interested in Sistine-Chapel-Ceilings per Lifetime.
->
-> — Alan Kay, A Personal Computer for Children of All Ages
-
-Nested quotes:
-
-> > Where some people measure progress in answers-right per test or tests-passed per year, we are more interested in Sistine-Chapel-Ceilings per Lifetime.
-> >
-> > — Alan Kay, A Personal Computer for Children of All Ages
->
-> This is **great**.
->
-> — Shu Ding.
-
-## Table
-
-| Syntax        | Description |   Test Text |
-| :------------ | :---------: | ----------: |
-| Header        |    Title    | Here's this |
-| Paragraph     |    Text     |    And more |
-| Strikethrough |             |    ~~Text~~ |
-
-## React Components
-
-React components and Markdown can be **mixed together**, for instance:
-
-```markdown
-> <Callout>
->   Give [**Nextra**](https://github.com/shuding/nextra) a star!
-> </Callout>
-```
-
-Renders:
-
-> <Callout>
->   Give [**Nextra**](https://github.com/shuding/nextra) a star!
-> </Callout>
