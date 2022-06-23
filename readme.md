@@ -1,23 +1,10 @@
-# [Nextra](https://nextra.vercel.app)
+# Introduction
 
-_Warning: this project is not production ready, API might change without notice._
 
-[![](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra&c=1)
+You have now entered **Pandamania**, there is no turning back now. We the ["Pandamanians"](https://twitter.com/syndicatespanda) have one goal, and that is to bring justice to the Hedera community.
+You may have rights, but is it Panda Syndicates rights? Do you breathe every breath for this moment? Are you excited as we are to lay down the law, and bring order? We are the Pandamania collections.  Our goal is to bring high quality, fun, collectibles, and one of a kind NFTs to the community. With each series we will unlock the door to new possibilities, growth, and benefits to our holders as we go along. As the project grows we will continue to keep all matters transparent as possible with our collectors.
+<br />
+<br />
+# WELCOME TO PANDAMANIAAAAA!
 
-**Nextra** is a [Next.js](https://nextjs.org) and [MDX](https://mdxjs.com) powered, no-code site generator.
-
-![](/public/demo.png)
-
-## Development
-
-The code of Nextra is under the [`core`](https://github.com/shuding/nextra/tree/core) branch.
-
-## Themes
-
-- [nextra-theme-docs](https://github.com/vercel/swr-site) ([demo](https://swr.vercel.app))
-- [nextra-theme-blog](https://github.com/shuding/site) ([demo](https://shud.in))
-
----
-
-Created by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com). Released under the MIT license.
-# Panda-Whitepaper
+<Bleed>![Nextra Example](../public/pb.png)</Bleed>
