@@ -7,4 +7,5 @@ You may have rights, but is it Panda Syndicates rights? Do you breathe every bre
 <br />
 # WELCOME TO PANDAMANIAAAAA!
 
-![alt text]([http://url/to/img.png](https://pbs.twimg.com/profile_banners/1458487429267169280/1645637354/1500x500))
+![pb](https://user-images.githubusercontent.com/100319461/175304401-60ad3547-5159-4fbe-bf94-7cdc93dce181.png)
+
