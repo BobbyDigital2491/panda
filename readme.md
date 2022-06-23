@@ -7,4 +7,4 @@ You may have rights, but is it Panda Syndicates rights? Do you breathe every bre
 <br />
 # WELCOME TO PANDAMANIAAAAA!
 
-<Bleed>![Nextra Example](../public/pb.png)</Bleed>
+![alt text]([http://url/to/img.png](https://pbs.twimg.com/profile_banners/1458487429267169280/1645637354/1500x500))
