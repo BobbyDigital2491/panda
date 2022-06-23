@@ -1,6 +1,5 @@
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
+  github: 'https://github.com/BobbyDigital2491',
   titleSuffix: ' – Pandamania',
   logo: (
     <>
@@ -16,15 +15,15 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the Next.js site builder" />
-      <meta name="og:description" content="Nextra: the Next.js site builder" />
+      <meta name="description" content="Pandamania Whitepaper" />
+      <meta name="og:description" content="Pandamania Whitepaper" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
-      <meta name="og:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="apple-mobile-web-app-title" content="Nextra" />
+      <meta name="twitter:image" content="https://pbs.twimg.com/profile_banners/1458487429267169280/1645637354/1500x500" />
+      <meta name="twitter:site:domain" content="https://twitter.com/syndicatespanda" />
+      <meta name="twitter:url" content="https://twitter.com/syndicatespanda" />
+      <meta name="og:title" content="Pandamania Whitepaper" />
+      <meta name="og:image" content="https://pbs.twimg.com/profile_banners/1458487429267169280/1645637354/1500x500" />
+      <meta name="apple-mobile-web-app-title" content="Pandamania Whitepaper" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
