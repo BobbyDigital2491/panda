@@ -61,7 +61,7 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditLink: 'Edit this page on GitHub',
+  footerEditLink: false,
   footerText: <>Powered By {new Date().getFullYear()} Sokoni ©</>,
   unstable_faviconGlyph: '👋',
 }
